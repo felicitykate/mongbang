@@ -34,7 +34,7 @@ module.exports = function (grunt) {
 				options: {livereload: '<%= connect.options.livereload %>'}
 			},
 			html: {
-				files: ["app/{,*/}*.html"],
+				files: ["app/**/*.html"],
 				tasks: ["htmlmin", 'copy:dist'],
 				options: {
 					spawn: true,
@@ -101,7 +101,7 @@ module.exports = function (grunt) {
 				files: [{
 					dot: true,
 					src: [
-						'dist/{,*/}*',
+						'dist/**/*',
 						'!dist/.git*'
 					]
 				}]
@@ -201,8 +201,8 @@ module.exports = function (grunt) {
 				},
 				files: [{
 					expand: true,
-					cwd: 'dist',
-					src: ['*.html', 'components/{,*/}*.html'],
+					cwd: 'app',
+					src: ['*.html', '**/*.html'],
 					dest: 'dist'
 				}]
 			}
@@ -217,12 +217,12 @@ module.exports = function (grunt) {
 					cwd: 'app',
 					dest: 'dist',
 					src: [
-						'*.{ico,png,txt}',
+						'**/*.{ico,png,txt}',
 						'.htaccess',
 						'*.html',
 						'components/{,*/}*.html',
 						'images/{,*/}*.{webp}',
-						'styles/fonts/*',
+						'fonts/*',
 						'images/*'
 					]
 				}]
