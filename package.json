@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "dependencies": {},
   "devDependencies": {
+    "chromedriver": "^2.26.0",
     "firebase": "",
     "grunt": "~0.4.5",
     "grunt-accessibility": "^4.2.0",

@@ -5,14 +5,38 @@
     "nodes" : [ {
       "name" : "Open http://localhost:3000",
       "status" : "info",
-      "time" : 1477314381171,
+      "time" : 1482030531626,
       "type" : "node"
     }, {
-      "name" : "EcmaError: TypeError: Cannot read property \"toJSON\" from undefined (<cmd>#256)",
-      "status" : "error",
-      "time" : 1477314381437,
-      "stacktrace" : "org.mozilla.javascript.EcmaError: TypeError: Cannot read property \"toJSON\" from undefined (<cmd>#256)\n\tat org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3689)\n\tat org.mozilla.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3667)\n\tat org.mozilla.javascript.ScriptRuntime.typeError(ScriptRuntime.java:3695)\n\tat org.mozilla.javascript.ScriptRuntime.typeError2(ScriptRuntime.java:3714)\n\tat org.mozilla.javascript.ScriptRuntime.undefReadError(ScriptRuntime.java:3726)\n\tat org.mozilla.javascript.ScriptRuntime.getObjectProp(ScriptRuntime.java:1483)\n\tat org.mozilla.javascript.gen._cmd__18._c_anonymous_29(<cmd>:256)\n\tat org.mozilla.javascript.gen._cmd__18.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call1(OptRuntime.java:32)\n\tat org.mozilla.javascript.gen._Users_felicityskinner_Documents_Projects_flan_project2_test_visual_example_test_js_20._c_anonymous_2(/Users/felicityskinner/Documents/Projects/flan-project2/test/visual/example.test.js:10)\n\tat org.mozilla.javascript.gen._Users_felicityskinner_Documents_Projects_flan_project2_test_visual_example_test_js_20.call(/Users/felicityskinner/Documents/Projects/flan-project2/test/visual/example.test.js)\n\tat org.mozilla.javascript.ScriptRuntime.applyOrCall(ScriptRuntime.java:2429)\n\tat org.mozilla.javascript.BaseFunction.execIdCall(BaseFunction.java:269)\n\tat org.mozilla.javascript.IdFunctionObject.call(IdFunctionObject.java:97)\n\tat org.mozilla.javascript.optimizer.OptRuntime.call2(OptRuntime.java:42)\n\tat org.mozilla.javascript.gen._cmd__17._c_invokeFunc_2(<cmd>:33)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.optimizer.OptRuntime.callName(OptRuntime.java:63)\n\tat org.mozilla.javascript.gen._cmd__17._c_anonymous_22(<cmd>:280)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.ContextFactory.doTopCall(ContextFactory.java:394)\n\tat org.mozilla.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3090)\n\tat org.mozilla.javascript.gen._cmd__17.call(<cmd>)\n\tat org.mozilla.javascript.JavaAdapter.doCall(JavaAdapter.java:606)\n\tat org.mozilla.javascript.JavaAdapter.access$000(JavaAdapter.java:15)\n\tat org.mozilla.javascript.JavaAdapter$1.run(JavaAdapter.java:586)\n\tat org.mozilla.javascript.Context.call(Context.java:489)\n\tat org.mozilla.javascript.ContextFactory.call(ContextFactory.java:504)\n\tat org.mozilla.javascript.JavaAdapter.callMethod(JavaAdapter.java:583)\n\tat adapter3.execute(<adapter>)\n\tat com.galenframework.TestRunnable.runTest(TestRunnable.java:75)\n\tat com.galenframework.TestRunnable.run(TestRunnable.java:101)\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\n\tat java.lang.Thread.run(Thread.java:745)\n",
-      "type" : "node"
+      "name" : "Check layout: ./test/visual/test.spec included tags: ",
+      "status" : "info",
+      "time" : 1482030533413,
+      "sections" : [ {
+        "name" : "Test Section",
+        "place" : {
+          "filePath" : "./test/visual/test.spec",
+          "lineNumber" : 4
+        },
+        "objects" : [ {
+          "name" : "box",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "./test/visual/test.spec",
+              "lineNumber" : 6
+            },
+            "name" : "visible",
+            "highlight" : [ "box" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "box" : {
+          "area" : [ 8, 126, 1264, 240 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
     } ]
   }
 }

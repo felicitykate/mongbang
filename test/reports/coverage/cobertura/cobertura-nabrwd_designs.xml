@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="3"  lines-covered="2"  line-rate="0.6667000000000001"  branches-valid="2"  branches-covered="1"  branch-rate="0.5"  timestamp="1477314376342" complexity="0" version="0.1">
+<coverage lines-valid="3"  lines-covered="2"  line-rate="0.6667000000000001"  branches-valid="2"  branches-covered="1"  branch-rate="0.5"  timestamp="1482030525501" complexity="0" version="0.1">
 <sources>
-	<source>/Users/felicityskinner/Documents/Projects/flan-project2</source>
+	<source>/Users/felicityskinner/Documents/Projects/flan-project-setup</source>
 </sources>
 <packages>
 	<package name="components"  line-rate="0.6667000000000001"  branch-rate="0.5" >
