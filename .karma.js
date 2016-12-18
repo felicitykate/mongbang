@@ -76,7 +76,7 @@ module.exports = function (config) {
 		// start these browsers
 		// available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
 		//browsers: ['Chrome', 'Firefox', 'PhantomJS'],
-		browsers: ['Chrome'],
+		browsers: ['PhantomJS'],
 
 		//Coverage reporter https://github.com/karma-runner/karma-coverage
 		coverageReporter: {
